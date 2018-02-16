@@ -15,13 +15,26 @@ input[type=submit] {
   border-radius: 15px;
 }
 
+#search-bar {
+  margin-top: 20px;
+}
+
 p{
   margin:2px;
+}
+
+#random-article {
+  color: white;
 }
 
 a.article-links{
   text-decoration: none;
   color: black;
+}
+
+a.article-links:hover{
+  text-decoration: none;
+  color: #C5CAE9;
 }
 
 .article-result {
@@ -34,19 +47,11 @@ a.article-links{
   color: #C5CAE9;
 }
 
-a {
-  color: #C5CAE9;
-}
-
-a:hover {
-  color: #C5CAE9;
-}
-
 footer {
   color: white;
   text-align: center;
   background-color: #303F9F;
-  margin-top: -30px;
+  margin-top: -50px;
 }
 
 #name-space {
