@@ -1,0 +1,55 @@
+.jumbotron-fluid {
+  background: #303F9F;
+  min-height: 100vh;
+  margin-bottom: 0px;
+}
+
+input[type=text] {
+  border: 2px solid #C5CAE9;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+input[type=submit] {
+  border: 1px solid #C5CAE9;
+  border-radius: 15px;
+}
+
+p{
+  margin:2px;
+}
+
+a.article-links{
+  text-decoration: none;
+  color: black;
+}
+
+.article-result {
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  padding: 5px;
+}
+
+.search-area{
+  color: #C5CAE9;
+}
+
+a {
+  color: #C5CAE9;
+}
+
+a:hover {
+  color: #C5CAE9;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: #303F9F;
+  margin-top: -30px;
+}
+
+#name-space {
+  color: inherit;
+  text-decoration: underline;
+}
