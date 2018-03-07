@@ -1,7 +1,7 @@
 $(document).ready(function() {
- var html = "";
-  $("#id-form").submit(function(e){
-    html =  "";
+  var html = "";
+  var $idForm = $("#id-form");
+  $idForm.submit(function(e){
     e.preventDefault();
     //Storing user's search as a variable
     var searchQuery = $("#search-bar").val();
